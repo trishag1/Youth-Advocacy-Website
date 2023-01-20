@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Youth Advocacy!</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <!-- navigation font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <!-- h1 font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+     <!-- nav bar -->
+   <ul class = "navigation">
+      <li class = "navbuttons" onclick = "location.href='./index.html'" type = "link">Home</li>
+      <li class = "navbuttons" onclick = "location.href='resources.html'" type = "link">Resources</li>
+      <li class = "navbuttons" onclick = "location.href='stayInformed.html'" type = "link">Stay Informed</li>
+      <li class = "navbuttons" onclick = "location.href='reachOut.html'" type = "link">
+        Reach Out!</li>
+    </ul>
+    <!-- header -->
+    <h1 class = "header1"> <u> Reach Out! </u> </h1> 
+    <h4>Please, feel free to contact us!</h4> 
+    <br> 
+    <!-- start the form --> 
+     <form contact = "">
+     <div class = "email"> <center>  <label for = "form-email"> Your Email: 
+     </center> </label>
+        &emsp; <center> <input type = "email" email = "contact_email" id = "form-email" required>
+        </center>
+     </div>
+    <br>
+
+<div class = "signup"> <center>
+    <br>
+     <input type = "checkbox" value = "check box">
+    I would like to subscribe to your newsletter for more information. Please subscribe me. 
+  </center> </div>
+  
+ <div class = "submit-email" value = "Subscribe" class= "button">  <center>
+    <div submission-success>
+      <p class="submit-response">
+        <center> 
+         <b> Thank you for reaching out to us! We will be in touch soon. </b>  <br> <u> After you click the "Subscribe me" button, your form will be submitted and you <br> have subscribed to our newsletter. </u> </center>
+      </p>  </center>
+
+   <center> <button id= "subscribe">  Subscribe me  </button> </center>
+<!-- end the form --> 
+  </form> 
+   </body>
+</html>

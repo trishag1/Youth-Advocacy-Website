@@ -1,0 +1,140 @@
+/* body color */
+body {
+  background-color: #FCD5D5;
+}
+
+.header1
+{
+  display: flex;
+  justify-content: center;
+  font-family: 'Gill Sans', fantasy;
+  font-size: 55px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  color:#D54A4A;
+  text-decoration-line: underline;
+}
+
+h4 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Andale Mono', monospace;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.abouttext1
+{
+  font-family: 'Gill Sans', fantasy;
+  font-size: 25px;
+}
+
+.navigation
+{
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  background-color:#D54A4A;
+  horizontal-align: middle;
+  margin: 0px;
+}
+
+.navbuttons 
+{
+    text-align: center;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 20px;
+    font-family: 'Gill Sans', fantasy;
+    color: white;
+    text-transform: normal;
+    letter-spacing: normal;
+}
+
+.navbuttons:hover
+{
+  cursor: pointer;
+  color: black;
+}
+
+.firstrow
+{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+
+.secondrow
+{
+  display: flex;
+  justify-content: space-evenly;
+}
+.resources 
+{
+  width: 400px;
+  border: 5px dotted dashed solid double #D54A4A; 
+}
+
+.resources:hover 
+{
+  border: 5px double #D54A4A;
+}
+
+.resources img 
+{
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.text-resources 
+{
+  width: 400px;
+  padding: 15px;
+  font-family: 'Gill Sans', fantasy;
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-color: #D54A4A;
+}
+
+.engage 
+{
+  padding: 15px;
+  text-align: center;
+  font-family: 'Gill Sans', fantasy;
+  font-size: 20px;
+}
+
+.email{
+font-family: 'Gill Sans', fantasy;  
+font-size: 20px;
+}
+
+.submit-email{
+  font-family: 'Gill Sans', fantasy;  
+  font-size: 19px;
+}
+
+button { 
+  margin-top: 2px;
+  padding: 1em;
+  background-color: #D54A4A; 
+  color: white; 
+  border-color: #E37373; 
+  border-bottom-color: #E37373; 
+}
+
+button:hover {
+  cursor: pointer;
+  color: black;
+
+}
+
+.signup{
+  cursor: pointer;
+ font-family: 'Gill Sans', fantasy;  
+  font-size: 19px;
+}
+
